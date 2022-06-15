@@ -6,6 +6,6 @@ sudo apt install zsh git neovim nginx certbot python3-certbot-nginx
 
 # change to zsh shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo "alias vi=nvim" >> ~/.zshrc && echo "alias html='cd /var/www/html/'" >> ~/.zshrc
+echo "alias vi=nvim" >> ~/.zshrc && echo "alias www='cd /var/www/'" >> ~/.zshrc
 
 # 
